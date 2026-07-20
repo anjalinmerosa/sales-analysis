@@ -1,0 +1,11 @@
+OrderID,Date,Product,Category,Quantity,Price
+101,2026-01-05,Laptop,Electronics,2,50000
+102,2026-01-07,Mouse,Electronics,5,700
+103,2026-02-10,Keyboard,Electronics,3,1200
+104,2026-02-15,Shoes,Fashion,4,2500
+105,2026-03-05,T-Shirt,Fashion,8,800
+106,2026-03-12,Laptop,Electronics,1,50000
+107,2026-04-08,Watch,Accessories,3,4000
+108,2026-04-20,Bag,Accessories,2,1800
+109,2026-05-14,Shoes,Fashion,5,2500
+110,2026-06-01,Laptop,Electronics,2,50000
