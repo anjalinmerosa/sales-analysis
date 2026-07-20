@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" />
 
-### 📈 Analyze • Visualize • Generate Reports
+### 📈 Data Analysis • Data Visualization • Report Generation
 
 </div>
 
@@ -15,29 +15,24 @@
 
 # 📌 Project Overview
 
-This project demonstrates **Sales Data Analysis using Python, Pandas, and Matplotlib**.
+This project analyzes a sales dataset using **Python**, **Pandas**, and **Matplotlib**.
 
-The dataset is analyzed to:
+The analysis includes:
 
-✔️ Clean the data
-
-✔️ Calculate Total Sales
-
-✔️ Analyze Monthly Sales
-
-✔️ Find Top Selling Products
-
-✔️ Compare Sales by Category
-
-✔️ Generate Revenue Statistics
-
-✔️ Export the Final Report
+- 🧹 Data Cleaning
+- 📅 Date Conversion
+- 💰 Total Sales Calculation
+- 📈 Monthly Sales Analysis
+- 🛍️ Top Selling Products
+- 🥧 Category-wise Sales Distribution
+- 📊 Revenue Statistics
+- 📄 Exporting Final Report
 
 ---
 
-# 🛠 Technologies Used
+# 🛠️ Technologies Used
 
-<table>
+<table align="center">
 <tr>
 <th>Technology</th>
 <th>Purpose</th>
@@ -50,7 +45,7 @@ The dataset is analyzed to:
 
 <tr>
 <td>🐼 Pandas</td>
-<td>Data Cleaning & Analysis</td>
+<td>Data Analysis & Manipulation</td>
 </tr>
 
 <tr>
@@ -72,25 +67,27 @@ The dataset is analyzed to:
 ```text
 sales-analysis/
 │
-├── Sales_Analysis.ipynb
+├── README.md
 ├── sales_data.csv
 ├── Final_Sales_Report.csv
-├── README.md
-└── requirements.txt
+├── monthly Sales.png
+├── Sales by category.png
+├── top selling products.png
+└── Sales_Analysis.ipynb
 ```
 
 ---
 
-# 📋 Dataset Columns
+# 📋 Dataset Information
 
 | Column | Description |
 |---------|-------------|
-| OrderID | Unique Order Number |
-| Date | Purchase Date |
+| OrderID | Unique Order ID |
+| Date | Order Date |
 | Product | Product Name |
 | Category | Product Category |
 | Quantity | Quantity Sold |
-| Price | Price per Unit |
+| Price | Price Per Unit |
 | Total Sales | Quantity × Price |
 | Month | Extracted Month |
 
@@ -98,21 +95,21 @@ sales-analysis/
 
 # 🚀 Features
 
-✅ Read CSV Files
-
-✅ Data Cleaning
-
-✅ Remove Duplicate Records
+✅ Read CSV Dataset
 
 ✅ Check Missing Values
 
-✅ Date Conversion
+✅ Remove Duplicate Records
+
+✅ Convert Date Column
 
 ✅ Calculate Total Sales
 
+✅ Extract Month from Date
+
 ✅ Monthly Sales Analysis
 
-✅ Product-wise Sales Analysis
+✅ Product-wise Analysis
 
 ✅ Category-wise Revenue Analysis
 
@@ -122,38 +119,62 @@ sales-analysis/
 
 ---
 
-# 📊 Visualizations
+# 📸 Project Preview
 
-This project generates:
+## 📈 Monthly Sales
 
-📈 Monthly Sales Bar Chart
-
-📊 Top Selling Products Bar Chart
-
-🥧 Sales by Category Pie Chart
+<p align="center">
+<img src="monthly%20Sales.png" width="750">
+</p>
 
 ---
 
-# 📈 Revenue Statistics
+## 🛍️ Top Selling Products
+
+<p align="center">
+<img src="top%20selling%20products.png" width="750">
+</p>
+
+---
+
+## 🥧 Sales by Category
+
+<p align="center">
+<img src="Sales%20by%20category.png" width="650">
+</p>
+
+---
+
+# 📊 Revenue Statistics
 
 The project calculates:
 
 - 💰 Total Revenue
-- 📊 Average Revenue
-- 📈 Highest Sale
+- 📈 Average Revenue
+- 🔥 Highest Sale
 - 📉 Lowest Sale
+
+---
+
+# 📄 Output Files
+
+| File | Description |
+|------|-------------|
+| sales_data.csv | Original Dataset |
+| Final_Sales_Report.csv | Final Processed Report |
+| README.md | Project Documentation |
 
 ---
 
 # ▶️ How to Run
 
-### 1️⃣ Clone Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/sales-analysis.git
 ```
 
-### 2️⃣ Install Dependencies
+### 2. Install Required Libraries
 
 ```bash
 pip install pandas matplotlib
@@ -165,15 +186,15 @@ or
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run the Notebook
+### 3. Run the Notebook
 
-Open
+Open:
 
 ```
 Sales_Analysis.ipynb
 ```
 
-using
+using:
 
 - Google Colab
 - Jupyter Notebook
@@ -183,35 +204,35 @@ Run all cells.
 
 ---
 
-# 📁 Output
-
-The project generates:
-
-- 📄 Final_Sales_Report.csv
-- 📊 Monthly Sales Chart
-- 📊 Product Sales Chart
-- 🥧 Category Sales Pie Chart
-
----
-
-# 💡 Learning Objectives
+# 🎯 Learning Outcomes
 
 This project demonstrates:
 
-- Data Analysis with Pandas
-- Working with CSV Files
-- Data Cleaning Techniques
-- GroupBy Operations
-- DateTime Handling
-- Data Visualization
-- Report Generation
+- 📌 Reading CSV files using Pandas
+- 📌 Data Cleaning Techniques
+- 📌 Working with DateTime
+- 📌 Creating New Columns
+- 📌 GroupBy Operations
+- 📌 Aggregation Functions
+- 📌 Data Visualization using Matplotlib
+- 📌 Exporting Reports
+
+---
+
+# 🌟 Future Improvements
+
+- 📈 Interactive Dashboard using Plotly
+- 📊 Sales Forecasting
+- 🤖 Machine Learning Prediction
+- 🗄️ Database Integration
+- 🌐 Streamlit Web Application
 
 ---
 
 <div align="center">
 
-## ⭐ If you found this project useful, consider giving it a Star!
+## ⭐ If you like this project, don't forget to Star the repository!
 
-Made with ❤️ using Python
+Made with ❤️ using Python, Pandas & Matplotlib
 
 </div>
